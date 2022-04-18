@@ -1,0 +1,276 @@
+/*Stylesheet for all the app*/
+
+/* Home page */
+.bodyDiv{
+    display: flex;
+    justify-content: space-around;
+}
+.contentDiv{
+    width: 50%;
+    padding: 5px;
+}
+.titleHome{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.errorMessage{
+    color: red;
+}
+.formConnexionContent{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.inputFormConnexion{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.submitFormConnexion{
+    padding: 10px;
+    background-color: lightskyblue;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+}
+.menu{
+    background-color: gainsboro;
+    display: flex;
+    justify-content: space-around;
+}
+.titleMenu{
+    font-size: 20px;
+}
+.teachers{
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.formElectTeacher{
+    display: flex;
+    flex-direction: column;
+}
+.checkBoxTd{
+    padding-left: 0px;
+    width: 50px;
+}
+.submitElectManyTeachers{
+    height: 30px;
+    width: 150px;
+    margin-left: 35px;
+}
+.arrayTeacher{
+    margin-top: 25px;
+    margin-left: 35px;
+    display: flex;
+    flex-direction: column;
+}
+table{
+    border-collapse: collapse;
+}
+.titleArray{
+    border-bottom: 2px solid rgb(172, 172, 172);
+}
+td{
+    border-bottom: 1px solid rgb(172, 172, 172);
+    /* padding-right: 150px; */
+    padding-top: 10px;
+    width: 200px;
+    padding-left: 50px;
+}
+td{
+    height: 30px;
+}
+.insertUser{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.menuPicture{
+    height: 30px;
+    cursor: pointer;
+}
+.loginInfos{
+    display: flex;
+    justify-content: right;
+    width: 500px;
+}
+.loginName{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.logoutButton{
+    margin-top: 22px;
+    margin-left: 10px;
+    height: 35px;
+
+    padding: 10px;
+    background-color: rgb(224, 154, 1);
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+
+    cursor: pointer;
+}
+
+/* Details teacher */
+.detailsContent{
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.titleDetails{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.sexSymbol{
+    height: 60px;
+    margin-left: 30px;
+}
+.section{
+    margin-top: 25px;
+    margin-left: 150px;    
+}
+.editDelete{
+    display: flex;
+    width: 20%;
+    justify-content: right;
+    margin-top: 10px;
+}
+.settingsPictureDetailsPage{
+    height: 50px;
+    margin-left: 15px;
+    justify-content: right;
+    cursor: pointer;
+}
+.contentNickNameElect{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contentNicknameAndReason{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.contentElect{
+    margin-top: 30px;
+    width: 150px;
+}
+.numberOfVoices{
+    margin-top: 32px;
+}
+.backHome{
+    display: flex;
+    justify-content: right;
+    margin-right: 30px;
+    margin-top: 100px;
+}
+
+/* Insert Teacher */
+.addTeacher{
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.errorMessageInsertTeacher{
+    color: red;
+}
+#Men{
+    margin-left: 0px;
+}
+.radioLabelSex{
+    margin-right: 25px;
+}
+.name{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.firstname{
+    margin-top: 15px;
+    margin-left: 2px;
+}
+.nickname{
+    margin-top: 15px;
+    margin-left: 1px;
+}
+.origin{
+    margin-top: 15px;
+    margin-left: 2px;
+    resize: none;
+    vertical-align: middle;
+}
+.section{
+    padding: 5px;
+    margin-left: 0px;
+}
+.submit{
+    padding: 5px;
+    width: 100px;
+    margin-top: 15px;
+}
+.delete{
+    padding: 5px;
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+/* Delete */
+.backgroudDiv{
+    display: none;
+    background-color: black;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0.5;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+.confirmDelete{
+    display: none;
+    left: 40%;
+    position: absolute;
+    background-color: white;
+    border: black solid 1px;
+    border-radius: 15px;
+    padding: 10px;
+    z-index: 2;
+
+    transform: scale(1.1);
+    transition: transform 0.1s;
+}
+.buttonConfirmDelete{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+.confirm{
+    padding: 10px;
+    border-radius: 10px;
+    height: 20px;
+    background-color: lightblue;
+    cursor: pointer;
+}
+.confirm p{
+    margin-top: 2px;
+}
+.cancel{
+    padding: 10px;
+    border: black solid 1px;
+    border-radius: 10px;
+    height: 20px;
+    cursor: pointer;
+}
+.cancel p{
+    margin-top: 2px;
+}
+/* Footer */
+.footer{
+    width: 100%;
+    margin-top: 50px;
+    justify-content: space-around;
+    display: flex;
+    border-top: 2px solid darkgray;
+}
